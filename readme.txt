@@ -1,0 +1,1 @@
+Está sendo muito produtivo para mim, pois, nunca me imaginei utilizando o github, sempre me pareceu algo fora da minha realidade. Estou particularmente ansioso para as aulas de desenvolvimento Web em si!. 
