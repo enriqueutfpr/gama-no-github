@@ -80,9 +80,52 @@
 {
   font-weight: 600;
   color: #696969;
-  font-size: 20px;
+  font-size: 22px;
   display: block;
   text-align: center;
+}
+
+.small_flex
+{
+  margin-top: 5%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.small_flex div
+{
+  height: 120px;
+  width: 200px;
+  margin-right: 40px;
+  margin-left: 40px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #cfcfcf;
+  justify-content: center;
+  align-items: center;
+}
+
+.small_flex div label
+{
+  text-align: center;
+  display: block;
+  margin: 10px 10px 0px 10px;
+}
+
+.lb_stat
+{
+  font-weight: 800;
+  color: #2984c0;
+  font-size: 35px;
+  vertical-align: middle;
+}
+.lb_stat_sec
+{
+  font-weight: 800;
+  color: #696969;
+  font-size: 20px;
+  vertical-align: middle;
 }
 
 .div_multirow 
@@ -98,25 +141,11 @@
   width: 180px;
   align-content: center;
 }
-
 .svg:hover
 {
   height: 210px;
   width: 190px;
-  transition: linear 0.3s;
-}
-
-.small_flex_container
-{
-  background-color: white;
-  border-radius: ;
-}
-
-body
-{
-  background-color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0px;
+  transition: linear 0.24s;
 }
 
 .h2_blue
@@ -135,4 +164,11 @@ body
   margin-left:50px;
   box-shadow: 1px 1px 10px #e1e1e1;
   display: inline-block;
+}
+
+body
+{
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
 }
