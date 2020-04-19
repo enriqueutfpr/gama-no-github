@@ -1,0 +1,138 @@
+#menu ul
+{
+  background-color: #2984c0;
+  margin: 0;
+  text-align: right;
+}
+
+#menu ul li
+{
+  display: inline;
+}
+
+#menu ul a
+{
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 16px 10px 16px 10px;
+  text-decoration: none;
+  color: white;
+}
+#menu ul li a:hover
+{
+  background: #4faff0;
+  font-size: 19px;
+  transition: background 1.3s;
+  transition: font 0.5s;
+  
+}
+#menu ul li i
+{
+  margin: 0px 5px 0px 0px;
+}
+
+#titulo
+{
+  margin-top: 50px;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.text-intro
+{
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #696969;
+  text-align: justify;
+}
+
+.flex_container
+{
+  margin-top: 5%;
+  display: flex;
+  flex-flow: row;
+}
+
+.flex_multirow 
+{
+  margin-top: 5%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.flex_multirow div 
+{
+  background-color: white;
+  border-radius: 15px;
+  padding-right: 10px;
+  box-shadow: 1px 1px 10px #cfcfcf;
+  justify-content: center;
+  margin-left: 50px;
+  white-space: pre-wrap;
+}
+
+.flex_multirow div label
+{
+  font-weight: 600;
+  color: #696969;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+
+.div_multirow 
+{
+  background-color: white;
+  border-radius: 15px;
+  align-content: center;
+  display: block;
+}
+.svg
+{
+  height: 200px;
+  width: 180px;
+  align-content: center;
+}
+
+.svg:hover
+{
+  height: 210px;
+  width: 190px;
+  transition: linear 0.3s;
+}
+
+.small_flex_container
+{
+  background-color: white;
+  border-radius: ;
+}
+
+body
+{
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+}
+
+.h2_blue
+{
+  margin-top: 4%;
+  text-align: center;
+  color: #2984c0;
+  font-size: 30px;
+}
+
+.container
+{
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-left:50px;
+  box-shadow: 1px 1px 10px #e1e1e1;
+  display: inline-block;
+}
